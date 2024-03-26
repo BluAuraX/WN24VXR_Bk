@@ -20,6 +20,10 @@ public class AnimControl : MonoBehaviour
         {
             bruce.GetComponent<Animator>().Play("Hurricane Kick");
         }
+        if (Input.GetButtonDown("B"))
+        {
+            bruce.GetComponent<Animator>().Play("Fireball");
+        }
 
     }
 }
